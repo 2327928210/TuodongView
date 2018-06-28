@@ -1,0 +1,62 @@
+<com.haoke.tuodong.TouchMoveView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/touchMoveView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/target_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="88dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/parent_view"
+        android:gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <com.haoke.tuodong.ColorView
+            android:id="@+id/red"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            app:bg_color="@color/red" />
+
+        <com.haoke.tuodong.ColorView
+            android:id="@+id/green"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            app:bg_color="@color/green" />
+
+        <com.haoke.tuodong.ColorView
+            android:id="@+id/blue"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            app:bg_color="@color/blue" />
+
+        <com.haoke.tuodong.ColorView
+            android:id="@+id/yellow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            app:bg_color="@color/yellow" />
+    </LinearLayout>
+
+</com.haoke.tuodong.TouchMoveView>
